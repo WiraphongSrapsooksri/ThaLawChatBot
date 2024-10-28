@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+envlaw/
+venv/
+ENV/
+
+# Environment Variables
+.env
+config/.env
+.env.local
+secrets.toml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.vs/
+
+# Training artifacts that should be regenerated
+models/*.h5
+models/*.keras
+plots/
+logs/
+
+# Chat history and temporary files
+chat_history.jsonl
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep these files
+!data/training_data.csv
+!data/responses.json
+!requirements.txt
+
+# Testing
+.coverage
+.pytest_cache/
+
+# Local development
+local/
